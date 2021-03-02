@@ -1,0 +1,5 @@
+%    pointcut get() : execution(* get*(..) ) && this(User);
+%
+%    before() : get() {
+%      System.out.println("aspect");
+%    }
