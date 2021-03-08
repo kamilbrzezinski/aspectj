@@ -11,7 +11,7 @@ public class User {
         return name;
     }
 
-    public void test() {
-        System.out.println("test");
+    public boolean isUserActive() {
+        return true;
     }
 }

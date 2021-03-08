@@ -12,9 +12,19 @@ public class AspectjApplication implements CommandLineRunner {
 	}
 
 	@Override
-	public void run(String... args) throws Exception {
+	public void run(String... args) {
 		User user = new User("Kamil");
+
 		System.out.println(user.getName());
-		user.test();
+		System.out.println();
+
+		System.out.println(user.isUserActive());
+		System.out.println();
+
+
+		Post post = new Post("Bardzo ciekawy odcinek");
+
+		System.out.println(post.getBody());
+		System.out.println();
 	}
 }

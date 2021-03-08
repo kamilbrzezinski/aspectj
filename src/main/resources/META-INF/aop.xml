@@ -1,8 +1,0 @@
-<!--<aspectj>-->
-<!--    <aspects>-->
-<!--        <aspect name="pl.jaknauczycsieprogramowania.aspectj.UserAspect"/>-->
-<!--        <weaver options="-verbose -showWeaveInfo">-->
-<!--            <include within="pl.jaknauczycsieprogramowania.aspectj.*"/>-->
-<!--        </weaver>-->
-<!--    </aspects>-->
-<!--</aspectj>-->
